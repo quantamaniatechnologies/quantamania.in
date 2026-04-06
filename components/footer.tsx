@@ -28,7 +28,9 @@ export function Footer() {
             </span>
             <nav className="flex flex-col gap-3">
               <Link
-                href="#instalearn"
+                href="https://instalearnapp.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm text-muted-foreground transition-colors hover:text-foreground"
               >
                 InstaLearn

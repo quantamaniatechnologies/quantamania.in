@@ -31,18 +31,6 @@ export function Navbar() {
             Product
           </Link>
           <Link
-            href="#features"
-            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-          >
-            Features
-          </Link>
-          <Link
-            href="#how-it-works"
-            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-          >
-            How It Works
-          </Link>
-          <Link
             href="#contact"
             className="text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
@@ -78,20 +66,6 @@ export function Navbar() {
               onClick={() => setMobileMenuOpen(false)}
             >
               Product
-            </Link>
-            <Link
-              href="#features"
-              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Features
-            </Link>
-            <Link
-              href="#how-it-works"
-              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              How It Works
             </Link>
             <Link
               href="#contact"

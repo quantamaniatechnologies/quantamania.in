@@ -1,5 +1,6 @@
 import { ArrowRight, Sparkles } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export function Hero() {
   return (
@@ -30,9 +31,16 @@ export function Hero() {
           <Button
             size="lg"
             className="gap-2 bg-foreground text-background hover:bg-foreground/90"
+            asChild
           >
-            Explore InstaLearn
-            <ArrowRight className="h-4 w-4" />
+            <Link
+              href="https://instalearnapp.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Explore InstaLearn
+              <ArrowRight className="h-4 w-4" />
+            </Link>
           </Button>
           <Button
             variant="outline"
